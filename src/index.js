@@ -8,6 +8,7 @@ import GoogleMapComponent from './GoogleMapComponent';
 ReactDOM.render(
   <>
     <h1 className='heading'>List of Profiles</h1> <br></br>
+    <h5> Please, add google map api key in GoogleMapComponent.jsx file to run the application.</h5>
     <hr/>
     { Data.map((val) => {
       return(

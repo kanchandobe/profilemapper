@@ -20,7 +20,7 @@ const GoogleMapComponent = () => {
   }
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCEsr_WdGDx3eHAzq1Y6Ye5162p96IHYfc">
+    <LoadScript googleMapsApiKey="Please add google map api key">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
         <Marker position={center} />
       </GoogleMap>
